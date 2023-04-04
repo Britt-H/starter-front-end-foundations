@@ -22,7 +22,15 @@ h3 {
   border-bottom: 1px solid lightgray;
 }
 
-/* --- Groups & Items --- */
+p {
+  font-size: 14px;
+}
+
+@media all and (min-width: 800px) {
+  p {
+    font-size: 18px;
+  }
+}
 
 .group {
   display:flex;
